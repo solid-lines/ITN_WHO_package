@@ -2023,5 +2023,54 @@
 			"translations": [],
 			"userAccesses": []
 		}
+	],
+	"dataElementGroups": [
+		{
+			"created": "2020-10-15T00:52:57.583",
+			"lastUpdated": "2020-10-15T00:52:57.583",
+			"name": "ITN Mass Campaign (Household Tracker)",
+			"id": "kfG5cHtvGIl",
+			"publicAccess": "--------",
+			"lastUpdatedBy": {
+				"id": "QTOaqdHzNly"
+			},
+			"user": {
+				"id": "QTOaqdHzNly"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"userGroupUid": "XqKqIObzfJz",
+					"displayName": "ITN MC - Admin",
+					"id": "XqKqIObzfJz"
+				},
+				{
+					"access": "r-------",
+					"userGroupUid": "BCT1mbxde4M",
+					"displayName": "ITN MC - Users",
+					"id": "BCT1mbxde4M"
+				}
+			],
+			"attributeValues": [],
+			"translations": [],
+			"userAccesses": [],
+			"dataElements": [
+				{
+					"id": "oJf9e5chmbx"
+				},
+				{
+					"id": "xhNMObZUSTP"
+				},
+				{
+					"id": "fQehMqK2Qz9"
+				},
+				{
+					"id": "iYCafUQT5D5"
+				},
+				{
+					"id": "D8P13zlwnzP"
+				}
+			]
+		}
 	]
 }

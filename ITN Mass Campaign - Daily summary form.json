@@ -1193,5 +1193,93 @@
 			"translations": [],
 			"userAccesses": []
 		}
+	],
+	"dataElementGroups": [
+		{
+			"created": "2020-10-15T00:52:22.018",
+			"lastUpdated": "2020-10-23T15:28:06.025",
+			"name": "ITN Mass Campaign (Summary Form)",
+			"id": "IfQQx6CILTj",
+			"publicAccess": "--------",
+			"lastUpdatedBy": {
+				"id": "QTOaqdHzNly"
+			},
+			"user": {
+				"id": "QTOaqdHzNly"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"userGroupUid": "XqKqIObzfJz",
+					"displayName": "ITN MC - Admin",
+					"id": "XqKqIObzfJz"
+				},
+				{
+					"access": "r-------",
+					"userGroupUid": "BCT1mbxde4M",
+					"displayName": "ITN MC - Users",
+					"id": "BCT1mbxde4M"
+				}
+			],
+			"attributeValues": [],
+			"translations": [],
+			"userAccesses": [],
+			"dataElements": [
+				{
+					"id": "WhN4DVVdmqS"
+				},
+				{
+					"id": "p3hjvDdF3qv"
+				},
+				{
+					"id": "Fz57kvvZOWH"
+				},
+				{
+					"id": "JCyGvxxuU0J"
+				},
+				{
+					"id": "XShd9WLhW3q"
+				},
+				{
+					"id": "zRGT1fsTOWQ"
+				},
+				{
+					"id": "iFiwrnh52V7"
+				},
+				{
+					"id": "ABY360LCXuR"
+				},
+				{
+					"id": "bvFxc5R2Rxj"
+				},
+				{
+					"id": "SaiTPdRkcIz"
+				},
+				{
+					"id": "HHkW4VZ52nV"
+				},
+				{
+					"id": "ZCLgxs9kR6a"
+				},
+				{
+					"id": "e0YcLMJiKnj"
+				},
+				{
+					"id": "C0Yjri6DhnZ"
+				},
+				{
+					"id": "zcTNOpGKlJu"
+				},
+				{
+					"id": "Q6n9OGOmAF9"
+				},
+				{
+					"id": "FdtFKcsZmDt"
+				},
+				{
+					"id": "NbGcRWOytxE"
+				}
+			]
+		}
 	]
 }
