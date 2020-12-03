@@ -24,7 +24,7 @@ Steps for Tracker Program ITN Mass Campaign - Household Register
 
 4) Add manually the dataElementGroups (ITN Mass Campaign (Household Tracker))
 
-PENDING) Add the userGroups involved?
+5) Add manually the userGroups involved. Remove the users (use import/export app)
 
 
 Steps for each dataset
@@ -49,10 +49,10 @@ Steps for each dataset
 	  - PSI default "XfXL6fEveof"
 	  - DHIS2 default "HllvX50cXC0"
 
-PENDING) Add the userGroups involved?
+4) Add manually the userGroups involved. Remove the users (use import/export app)
 
 - For dataset ITN Mass Campaign - Daily summary form
-4) Add manually the dataElementGroups (ITN Mass Campaign (Summary Form))
+5) Add manually the dataElementGroups (ITN Mass Campaign (Summary Form))
 
 
 Steps for merged datasets
@@ -79,4 +79,3 @@ Steps for each dashboard
 
 
 
-PENDING) Add the userGroups involved?

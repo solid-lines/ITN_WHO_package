@@ -1803,5 +1803,48 @@
                 }
             ]
         }
+    ],
+	
+    "userGroups": [{
+            "created": "2020-10-14T13:53:27.760",
+            "lastUpdated": "2020-12-02T15:38:10.218",
+            "name": "ITN MC - Admin",
+            "id": "XqKqIObzfJz",
+            "publicAccess": "rw------",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [{
+                    "id": "BCT1mbxde4M"
+                }
+            ],
+            "translations": [],
+            "userAccesses": []
+        }, {
+            "created": "2020-10-14T13:52:38.429",
+            "lastUpdated": "2020-12-02T15:38:10.225",
+            "name": "ITN MC - Users",
+            "id": "BCT1mbxde4M",
+            "publicAccess": "rw------",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [],
+            "userAccesses": []
+        }
     ]
+
 }
