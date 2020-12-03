@@ -51,10 +51,16 @@ Steps for each dataset
 
 PENDING) Add the userGroups involved?
 
-For dataset ITN Mass Campaign - Daily summary form
+- For dataset ITN Mass Campaign - Daily summary form
 4) Add manually the dataElementGroups (ITN Mass Campaign (Summary Form))
+
 
 Steps for merged datasets
 ----------------------------------------------------------------
 
-1) Create one file with:
+1) Make a copy of the biggest dataset (ITN Mass Campaign - Daily summary form)
+2) Add from ITN Mass Campaign - Microplanning Information the parts:
+- dataElements (merge)
+- dataSets (merge)
+- optionSets (full)
+- options (full)
