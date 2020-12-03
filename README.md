@@ -64,3 +64,19 @@ Steps for merged datasets
 - dataSets (merge)
 - optionSets (full)
 - options (full)
+
+
+Steps for each dashboard
+----------------------------------------------------------------
+
+1) Export the dashboard using the import/export app
+2) Remove organisationUnits (if they are present)
+3) Add manually:
+- legendSets named as ITN (to obtain them, use the import/export app)
+- all indicatorTypes (to obtain them, use the import/export app)
+- indicatorGroups named as ITN (to obtain them, use the import/export app)
+- indicators named as ITN (to obtain them, use the import/export app. Fast approach, remove the others because ITN indicators are in the middle of the file)
+
+
+
+PENDING) Add the userGroups involved?
