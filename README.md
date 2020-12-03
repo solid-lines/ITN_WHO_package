@@ -77,5 +77,7 @@ Steps for each dashboard
 - indicatorGroups named as ITN (to obtain them, use the import/export app)
 - indicators named as ITN (to obtain them, use the import/export app. Fast approach, remove the others because ITN indicators are in the middle of the file)
 
+4) Add manually the userGroups involved. Remove the users (use import/export app)
+
 
 
