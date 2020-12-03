@@ -10,7 +10,7 @@
             "dataDimension": false,
             "dataDimensionType": "DISAGGREGATION",
             "id": "GLevLNI9wkl",
-            "lastUpdated": "2020-10-18T17:27:50.268",
+            "lastUpdated": "2020-11-08T23:43:12.991",
             "name": "default",
             "publicAccess": "rw------",
             "translations": [],
@@ -72,15 +72,15 @@
             "attributeValues": [],
             "created": "2020-10-15T00:52:57.583",
             "dataElements": [{
-                    "id": "oJf9e5chmbx"
+                    "id": "D8P13zlwnzP"
                 }, {
                     "id": "xhNMObZUSTP"
                 }, {
-                    "id": "fQehMqK2Qz9"
+                    "id": "oJf9e5chmbx"
                 }, {
                     "id": "iYCafUQT5D5"
                 }, {
-                    "id": "D8P13zlwnzP"
+                    "id": "fQehMqK2Qz9"
                 }
             ],
             "id": "kfG5cHtvGIl",
@@ -117,10 +117,11 @@
                 "id": "bjDvmb4bfuf"
             },
             "created": "2020-10-12T20:28:47.673",
+            "description": "Number of ITNs allotted based on registration results (through digital register)",
             "domainType": "TRACKER",
             "formName": "ITNs allotted during registration",
             "id": "oJf9e5chmbx",
-            "lastUpdated": "2020-10-14T19:03:28.591",
+            "lastUpdated": "2020-11-16T17:30:08.236",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -155,10 +156,50 @@
                 "id": "bjDvmb4bfuf"
             },
             "created": "2020-10-12T20:28:47.673",
+            "description": "Number of sleeping spaces within registered households (through digital register)",
+            "domainType": "TRACKER",
+            "formName": "Registered sleeping spaces",
+            "id": "D8P13zlwnzP",
+            "lastUpdated": "2020-11-16T17:38:43.406",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "legendSets": [],
+            "name": "ITN MC - Registered sleeping spaces (TRK)",
+            "publicAccess": "--------",
+            "shortName": "Reg sleeping spaces",
+            "translations": [],
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ],
+            "valueType": "INTEGER",
+            "zeroIsSignificant": true
+        }, {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "created": "2020-10-12T20:28:47.673",
+            "description": "Number of ITNs issued to beneficiaries (through digital register)",
             "domainType": "TRACKER",
             "formName": "ITNs issued",
             "id": "xhNMObZUSTP",
-            "lastUpdated": "2020-10-14T19:03:28.688",
+            "lastUpdated": "2020-11-16T17:31:37.162",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -187,54 +228,17 @@
             "zeroIsSignificant": true
         }, {
             "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "created": "2020-10-12T20:28:47.673",
-            "domainType": "TRACKER",
-            "formName": "Registered population",
-            "id": "fQehMqK2Qz9",
-            "lastUpdated": "2020-10-14T19:03:28.640",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "legendSets": [],
-            "name": "ITN MC - Registered population (TRK)",
-            "publicAccess": "--------",
-            "shortName": "Reg population",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [{
-                    "access": "rw------",
-                    "displayName": "ITN MC - Admin",
-                    "id": "XqKqIObzfJz",
-                    "userGroupUid": "XqKqIObzfJz"
-                }, {
-                    "access": "r-------",
-                    "displayName": "ITN MC - Users",
-                    "id": "BCT1mbxde4M",
-                    "userGroupUid": "BCT1mbxde4M"
-                }
-            ],
-            "valueType": "INTEGER",
-            "zeroIsSignificant": true
-        }, {
-            "aggregationLevels": [],
             "aggregationType": "NONE",
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
             "created": "2020-10-12T20:28:47.673",
+            "description": "The name of the person receiving the ITNs during distribution",
             "domainType": "TRACKER",
             "formName": "Name of person who received the ITNs",
             "id": "iYCafUQT5D5",
-            "lastUpdated": "2020-10-14T19:03:28.662",
+            "lastUpdated": "2020-11-16T17:35:40.847",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -263,23 +267,66 @@
             "zeroIsSignificant": false
         }, {
             "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "created": "2020-11-16T18:44:43.374",
+            "description": "Type of ITN brand to be distributed, captured during distribution through digital registers",
+            "domainType": "TRACKER",
+            "formName": "ITN brand",
+            "id": "E6YzdH6Akcx",
+            "lastUpdated": "2020-11-16T18:44:43.374",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "legendSets": [],
+            "name": "ITN MC - ITN brand (TRK)",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "publicAccess": "--------",
+            "shortName": "ITN MC - ITN brand (TRK)",
+            "translations": [],
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ],
+            "valueType": "TEXT",
+            "zeroIsSignificant": false
+        }, {
+            "aggregationLevels": [],
             "aggregationType": "SUM",
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
             "created": "2020-10-12T20:28:47.673",
+            "description": "Number of persons within registered households (through digital register)",
             "domainType": "TRACKER",
-            "formName": "Registered sleeping spaces",
-            "id": "D8P13zlwnzP",
-            "lastUpdated": "2020-10-14T19:03:28.777",
+            "formName": "Registered population",
+            "id": "fQehMqK2Qz9",
+            "lastUpdated": "2020-11-16T17:38:10.753",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
             "legendSets": [],
-            "name": "ITN MC - Registered sleeping spaces (TRK)",
+            "name": "ITN MC - Registered population (TRK)",
             "publicAccess": "--------",
-            "shortName": "Reg sleeping spaces",
+            "shortName": "Reg population",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -301,8 +348,93 @@
             "zeroIsSignificant": true
         }
     ],
-    "date": "2020-10-24T07:15:51.781",
+    "date": "2020-12-03T07:27:04.143",
     "optionSets": [{
+            "attributeValues": [],
+            "code": "VC_ITN_PRODUCTS",
+            "created": "2019-07-08T11:22:42.782",
+            "id": "F63xpYtffNW",
+            "lastUpdated": "2020-11-16T16:21:51.682",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "name": "VC- Prequalified ITN Products",
+            "options": [{
+                    "id": "bOmbY37RXiS"
+                }, {
+                    "id": "UDBtMU9vc9S"
+                }, {
+                    "id": "f186mheUYwh"
+                }, {
+                    "id": "B2ZrVOwMTQ7"
+                }, {
+                    "id": "MKNJf3ve9fy"
+                }, {
+                    "id": "Dw1gaDUeFFu"
+                }, {
+                    "id": "z8lcapzfHaN"
+                }, {
+                    "id": "s1NvCjic415"
+                }, {
+                    "id": "f7OEHFalt2D"
+                }, {
+                    "id": "toblEtMJjpO"
+                }, {
+                    "id": "tdOArF8YcXz"
+                }, {
+                    "id": "y3GOHadv6wj"
+                }, {
+                    "id": "Mph1mIoYU6t"
+                }, {
+                    "id": "lb5GtqZrgvz"
+                }, {
+                    "id": "QJNF88YWkJq"
+                }, {
+                    "id": "HaGPJAlm5om"
+                }, {
+                    "id": "xV3LW0YiWnU"
+                }, {
+                    "id": "nNPBj4RG1HU"
+                }, {
+                    "id": "VdAaqAz5yEJ"
+                }, {
+                    "id": "KfrGrRa76RJ"
+                }
+            ],
+            "publicAccess": "--------",
+            "translations": [{
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "VC- Marca"
+                }, {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "VC- ITN Produits"
+                }, {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "VC- Marcas de mosquiteros precalificadas"
+                }
+            ],
+            "user": {
+                "id": "NwwXXzvSAdK"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ],
+            "valueType": "TEXT",
+            "version": 28
+        }, {
             "attributeValues": [],
             "created": "2014-01-13T08:02:58.116",
             "id": "TKECf3zs7zi",
@@ -319,17 +451,17 @@
             ],
             "publicAccess": "r-------",
             "translations": [{
-                    "locale": "fr_NE",
+                    "locale": "pt",
                     "property": "NAME",
-                    "value": "CORE - Sexe (M/F)"
+                    "value": "CORE - Sexo"
                 }, {
                     "locale": "es",
                     "property": "NAME",
                     "value": "CORE - Sexo"
                 }, {
-                    "locale": "pt",
+                    "locale": "fr_NE",
                     "property": "NAME",
-                    "value": "CORE - Sexo"
+                    "value": "CORE - Sexe (M/F)"
                 }
             ],
             "user": {
@@ -343,6 +475,74 @@
     ],
     "options": [{
             "attributeValues": [],
+            "code": "VC_ITN_TSARA_BOOST",
+            "created": "2019-07-08T11:29:28.936",
+            "id": "Dw1gaDUeFFu",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Tsara Boost",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 6,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Tsara Boost"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_SAFENET",
+            "created": "2019-07-08T11:28:43.038",
+            "id": "z8lcapzfHaN",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "SafeNet",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 7,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SafeNet"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_ROYAL_SENTRY_2.0",
+            "created": "2019-07-08T11:25:56.689",
+            "id": "s1NvCjic415",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Royal Sentry 2.0",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 8,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Royal Sentry 2.0"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_DURANET_LLIN",
+            "created": "2019-07-08T11:27:31.927",
+            "id": "KfrGrRa76RJ",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Duranet LLIN",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 20,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Duranet LLIN"
+                }
+            ]
+        }, {
+            "attributeValues": [],
             "code": "Female",
             "created": "2015-01-17T16:47:45.000",
             "id": "dsr9smYmHJu",
@@ -353,6 +553,10 @@
             },
             "sortOrder": 1,
             "translations": [{
+                    "locale": "es_SV",
+                    "property": "NAME",
+                    "value": "Mujer"
+                }, {
                     "locale": "fr",
                     "property": "NAME",
                     "value": "Femme"
@@ -360,10 +564,6 @@
                     "locale": "es",
                     "property": "NAME",
                     "value": "Femenino"
-                }, {
-                    "locale": "es_SV",
-                    "property": "NAME",
-                    "value": "Mujer"
                 }, {
                     "locale": "fr_NE",
                     "property": "NAME",
@@ -386,30 +586,302 @@
             },
             "sortOrder": 2,
             "translations": [{
-                    "locale": "es",
+                    "locale": "es_SV",
                     "property": "NAME",
-                    "value": "Masculino"
-                }, {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Masculino"
-                }, {
-                    "locale": "fr_NE",
-                    "property": "NAME",
-                    "value": "Masculin"
+                    "value": "Hombre"
                 }, {
                     "locale": "fr",
                     "property": "NAME",
                     "value": "Homme"
                 }, {
-                    "locale": "es_SV",
+                    "locale": "fr_NE",
                     "property": "NAME",
-                    "value": "Hombre"
+                    "value": "Masculin"
+                }, {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Masculino"
+                }, {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Masculino"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_OLYSET_PLUS",
+            "created": "2019-07-08T11:24:42.008",
+            "id": "lb5GtqZrgvz",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "OLYSET PLUS",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 14,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "OLYSET PLUS"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_INTERCEPTOR",
+            "created": "2019-07-08T11:24:59.264",
+            "id": "VdAaqAz5yEJ",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Interceptor",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 19,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Interceptor"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_PERMANET_3.0",
+            "created": "2019-07-08T11:27:08.569",
+            "id": "tdOArF8YcXz",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "PermaNet 3.0",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 11,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "PermaNet 3.0"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_PANDA_NET_2.0",
+            "created": "2019-07-08T11:29:11.803",
+            "id": "Mph1mIoYU6t",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Panda Net 2.0",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 13,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Panda Net 2.0"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_YAHE_LN",
+            "created": "2019-07-08T11:28:20.994",
+            "id": "UDBtMU9vc9S",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Yahe LN",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 2,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Yahe LN"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_ROYAL_SENTRY",
+            "created": "2019-07-08T11:25:36.405",
+            "id": "f7OEHFalt2D",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Royal Sentry",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 9,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Royal Sentry"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_TSARA_SOFT",
+            "created": "2019-07-08T11:29:44.537",
+            "id": "B2ZrVOwMTQ7",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Tsara Soft",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 4,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Tsara Soft"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_VEERALIN",
+            "created": "2019-07-08T11:28:05.310",
+            "id": "f186mheUYwh",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "VEERALIN",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 3,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "VEERALIN"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_INTERCEPTOR_G2",
+            "created": "2019-07-08T11:25:17.446",
+            "id": "nNPBj4RG1HU",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Interceptor G2",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 18,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Interceptor G2"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_MIRANET",
+            "created": "2019-07-08T11:27:43.019",
+            "id": "HaGPJAlm5om",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "MiraNet",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 16,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "MiraNet"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_YORKOOL_LN",
+            "created": "2019-07-08T11:28:57.754",
+            "id": "bOmbY37RXiS",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Yorkool LN",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 1,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Yorkool LN"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_TSARA_PLUS",
+            "created": "2019-07-08T11:29:58.122",
+            "id": "MKNJf3ve9fy",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Tsara Plus",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 5,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Tsara Plus"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_ROYAL_GUARD",
+            "created": "2019-07-08T11:26:35.300",
+            "id": "toblEtMJjpO",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "Royal Guard",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 10,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Royal Guard"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_MAGNET",
+            "created": "2019-07-08T11:27:53.480",
+            "id": "xV3LW0YiWnU",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "MAGNet",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 17,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "MAGNet"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_PERMANET_2.0",
+            "created": "2019-07-08T11:26:50.693",
+            "id": "y3GOHadv6wj",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "PermaNet 2.0",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 12,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "PermaNet 2.0"
+                }
+            ]
+        }, {
+            "attributeValues": [],
+            "code": "VC_ITN_OLYSET_NET",
+            "created": "2019-07-08T11:24:26.017",
+            "id": "QJNF88YWkJq",
+            "lastUpdated": "2020-11-16T16:11:54.762",
+            "name": "OLYSET Net",
+            "optionSet": {
+                "id": "F63xpYtffNW"
+            },
+            "sortOrder": 15,
+            "translations": [{
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "OLYSET Net"
                 }
             ]
         }
     ],
-    "package": "PSI_ITN_TRACKER_V1.0.0_DHIS2.33_2020-10-24T07:15:51.781",
+    "package": "PSI_ITN_TRACKER_V1.0.0_DHIS2.33_2020-12-03T07:27:04.143",
     "programIndicators": [{
             "aggregationType": "SUM",
             "analyticsPeriodBoundaries": [{
@@ -421,15 +893,15 @@
                         "update": true,
                         "write": true
                     },
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "created": "2020-10-14T23:50:56.656",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "zqxyvZBpXAK",
-                    "lastUpdated": "2020-10-23T03:44:45.214",
+                    "id": "EI3tS5spFcN",
+                    "lastUpdated": "2020-11-16T18:06:15.243",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -442,15 +914,15 @@
                         "update": true,
                         "write": true
                     },
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "created": "2020-10-14T23:50:56.656",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "jUhd0eDVdza",
-                    "lastUpdated": "2020-10-23T03:44:45.214",
+                    "id": "YcmM35ULki1",
+                    "lastUpdated": "2020-11-16T18:06:15.243",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -458,22 +930,23 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "created": "2020-10-14T23:54:42.201",
+            "created": "2020-10-15T00:10:19.577",
             "decimals": 0,
-            "expression": "d2:condition('(#{fseAUcF7XDF.xhNMObZUSTP} * 2) >= #{lQ41LNzTUms.fQehMqK2Qz9}',1,0)",
+            "description": "Number of people in the registered households that received at least 1 ITN for every 2 persons (as per digital registers)",
+            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} * 2 >= #{lQ41LNzTUms.fQehMqK2Qz9}',#{lQ41LNzTUms.fQehMqK2Qz9},0)",
             "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.fQehMqK2Qz9})",
-            "id": "AIxuEw0ZCp1",
-            "lastUpdated": "2020-10-23T03:44:45.213",
+            "id": "iYkaQTZvdxi",
+            "lastUpdated": "2020-11-16T18:06:15.243",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
             "legendSets": [],
-            "name": "ITN MC - Number of registered households receiving at least 1 ITN for every 2 people",
+            "name": "ITN MC - Number of registered persons in households receiving at least 1 ITN for every 2 persons",
             "program": {
                 "id": "fkb6OrxtbnG"
             },
             "publicAccess": "--------",
-            "shortName": "ITN MC - # registered HHs (>=1 ITN per 2 ppl)",
+            "shortName": "ITN MC - # registered ppl (HHs >=1 ITN per 2 ppl)",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -494,270 +967,6 @@
         }, {
             "aggregationType": "SUM",
             "analyticsPeriodBoundaries": [{
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "S6ZnjMLcwDI",
-                    "lastUpdated": "2020-10-23T03:58:40.637",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }, {
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "cBaU5tMQwSs",
-                    "lastUpdated": "2020-10-23T03:58:40.637",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }
-            ],
-            "analyticsType": "ENROLLMENT",
-            "attributeValues": [],
-            "created": "2020-10-15T00:01:21.515",
-            "decimals": 0,
-            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} >= #{lQ41LNzTUms.D8P13zlwnzP}',#{lQ41LNzTUms.fQehMqK2Qz9},0)",
-            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.D8P13zlwnzP})",
-            "id": "hnIbMeT2W3j",
-            "lastUpdated": "2020-10-23T03:58:40.636",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "legendSets": [],
-            "name": "ITN MC - Number of registered persons in households receiving at least 1 ITN per sleeping space",
-            "program": {
-                "id": "fkb6OrxtbnG"
-            },
-            "publicAccess": "--------",
-            "shortName": "ITN MC - # registered ppl (HH ITNs >= spaces)",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [{
-                    "access": "rw------",
-                    "displayName": "ITN MC - Admin",
-                    "id": "XqKqIObzfJz",
-                    "userGroupUid": "XqKqIObzfJz"
-                }, {
-                    "access": "r-------",
-                    "displayName": "ITN MC - Users",
-                    "id": "BCT1mbxde4M",
-                    "userGroupUid": "BCT1mbxde4M"
-                }
-            ]
-        }, {
-            "aggregationType": "SUM",
-            "analyticsPeriodBoundaries": [{
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "t9AuDiDX109",
-                    "lastUpdated": "2020-10-23T04:01:06.592",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }, {
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "YZ7tu5qQlPz",
-                    "lastUpdated": "2020-10-23T04:01:06.592",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }
-            ],
-            "analyticsType": "ENROLLMENT",
-            "attributeValues": [],
-            "created": "2020-10-14T23:50:56.656",
-            "decimals": 0,
-            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} >= #{lQ41LNzTUms.D8P13zlwnzP}',1,0)",
-            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.D8P13zlwnzP})",
-            "id": "OwgG9KdkNVm",
-            "lastUpdated": "2020-10-23T04:01:06.592",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "legendSets": [],
-            "name": "ITN MC - Number of registered households receiving at least 1 ITN per sleeping space",
-            "program": {
-                "id": "fkb6OrxtbnG"
-            },
-            "publicAccess": "--------",
-            "shortName": "ITN MC - # registered HHs (ITNs >= spaces)",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [{
-                    "access": "rw------",
-                    "displayName": "ITN MC - Admin",
-                    "id": "XqKqIObzfJz",
-                    "userGroupUid": "XqKqIObzfJz"
-                }, {
-                    "access": "r-------",
-                    "displayName": "ITN MC - Users",
-                    "id": "BCT1mbxde4M",
-                    "userGroupUid": "BCT1mbxde4M"
-                }
-            ]
-        }, {
-            "aggregationType": "SUM",
-            "analyticsPeriodBoundaries": [{
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "BO6vnKzf2hC",
-                    "lastUpdated": "2020-10-23T03:11:00.582",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }, {
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "QSkY88ibJLt",
-                    "lastUpdated": "2020-10-23T03:11:00.582",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }
-            ],
-            "analyticsType": "ENROLLMENT",
-            "attributeValues": [],
-            "created": "2020-10-15T00:06:24.649",
-            "decimals": 0,
-            "expression": "1",
-            "filter": "d2:hasValue(#{lQ41LNzTUms.fQehMqK2Qz9})",
-            "id": "UleBC8hg9sz",
-            "lastUpdated": "2020-10-23T03:11:00.581",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "legendSets": [],
-            "name": "ITN MC - Number of households registered",
-            "program": {
-                "id": "fkb6OrxtbnG"
-            },
-            "publicAccess": "--------",
-            "shortName": "ITN MC - # HHs registered ",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [{
-                    "access": "rw------",
-                    "displayName": "ITN MC - Admin",
-                    "id": "XqKqIObzfJz",
-                    "userGroupUid": "XqKqIObzfJz"
-                }, {
-                    "access": "r-------",
-                    "displayName": "ITN MC - Users",
-                    "id": "BCT1mbxde4M",
-                    "userGroupUid": "BCT1mbxde4M"
-                }
-            ]
-        }, {
-            "aggregationType": "SUM",
-            "analyticsPeriodBoundaries": [{
-                    "access": {
-                        "delete": true,
-                        "externalize": true,
-                        "manage": true,
-                        "read": true,
-                        "update": true,
-                        "write": true
-                    },
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "created": "2020-10-14T23:50:56.656",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "uS7ye3HtaPk",
-                    "lastUpdated": "2020-10-23T03:31:12.252",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }, {
                     "access": {
                         "delete": true,
                         "externalize": true,
@@ -774,7 +983,28 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "tm2sqDNB823",
-                    "lastUpdated": "2020-10-23T03:31:12.252",
+                    "lastUpdated": "2020-11-16T18:05:03.711",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "uS7ye3HtaPk",
+                    "lastUpdated": "2020-11-16T18:05:03.711",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -784,10 +1014,11 @@
             "attributeValues": [],
             "created": "2020-10-15T00:29:14.237",
             "decimals": 0,
+            "description": "Number of registered households receiving at least 1 ITN (as per digital registers)",
             "expression": "if(#{fseAUcF7XDF.xhNMObZUSTP} > 0,1,0)",
             "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP})",
             "id": "IkfxYrfk43v",
-            "lastUpdated": "2020-10-23T03:31:12.252",
+            "lastUpdated": "2020-11-16T18:05:03.710",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -826,6 +1057,27 @@
                         "update": true,
                         "write": true
                     },
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "YZ7tu5qQlPz",
+                    "lastUpdated": "2020-11-16T18:05:46.848",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -833,12 +1085,52 @@
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "YcmM35ULki1",
-                    "lastUpdated": "2020-10-23T04:00:28.565",
+                    "id": "t9AuDiDX109",
+                    "lastUpdated": "2020-11-16T18:05:46.848",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "ENROLLMENT",
+            "attributeValues": [],
+            "created": "2020-10-14T23:50:56.656",
+            "decimals": 0,
+            "description": "Number of registered households receiving at least 1 ITN for every sleeping space (as per digital registers)",
+            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} >= #{lQ41LNzTUms.D8P13zlwnzP}',1,0)",
+            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.D8P13zlwnzP})",
+            "id": "OwgG9KdkNVm",
+            "lastUpdated": "2020-11-16T18:05:46.847",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "legendSets": [],
+            "name": "ITN MC - Number of registered households receiving at least 1 ITN per sleeping space",
+            "program": {
+                "id": "fkb6OrxtbnG"
+            },
+            "publicAccess": "--------",
+            "shortName": "ITN MC - # registered HHs (ITNs >= spaces)",
+            "translations": [],
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
                 }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]
+        }, {
+            "aggregationType": "SUM",
+            "analyticsPeriodBoundaries": [{
                     "access": {
                         "delete": true,
                         "externalize": true,
@@ -854,8 +1146,29 @@
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "EI3tS5spFcN",
-                    "lastUpdated": "2020-10-23T04:00:28.565",
+                    "id": "cBaU5tMQwSs",
+                    "lastUpdated": "2020-11-16T18:06:27.036",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "S6ZnjMLcwDI",
+                    "lastUpdated": "2020-11-16T18:06:27.036",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -863,22 +1176,187 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "created": "2020-10-15T00:10:19.577",
+            "created": "2020-10-15T00:01:21.515",
             "decimals": 0,
-            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} * 2 >= #{lQ41LNzTUms.fQehMqK2Qz9}',#{lQ41LNzTUms.fQehMqK2Qz9},0)",
-            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.fQehMqK2Qz9})",
-            "id": "iYkaQTZvdxi",
-            "lastUpdated": "2020-10-23T04:00:28.565",
+            "description": "Number of people in the registered households that received at least 1 ITN for every sleeping space (as per digital registers)",
+            "expression": "d2:condition('#{fseAUcF7XDF.xhNMObZUSTP} >= #{lQ41LNzTUms.D8P13zlwnzP}',#{lQ41LNzTUms.fQehMqK2Qz9},0)",
+            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.D8P13zlwnzP})",
+            "id": "hnIbMeT2W3j",
+            "lastUpdated": "2020-11-16T18:06:27.036",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
             "legendSets": [],
-            "name": "ITN MC - Number of registered persons in households receiving at least 1 ITN for every 2 persons",
+            "name": "ITN MC - Number of registered persons in households receiving at least 1 ITN per sleeping space",
             "program": {
                 "id": "fkb6OrxtbnG"
             },
             "publicAccess": "--------",
-            "shortName": "ITN MC - # registered ppl (HHs >=1 ITN per 2 ppl)",
+            "shortName": "ITN MC - # registered ppl (HH ITNs >= spaces)",
+            "translations": [],
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]
+        }, {
+            "aggregationType": "SUM",
+            "analyticsPeriodBoundaries": [{
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "jUhd0eDVdza",
+                    "lastUpdated": "2020-11-16T18:05:27.783",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zqxyvZBpXAK",
+                    "lastUpdated": "2020-11-16T18:05:27.783",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "ENROLLMENT",
+            "attributeValues": [],
+            "created": "2020-10-14T23:54:42.201",
+            "decimals": 0,
+            "description": "Number of registered households receiving at least 1 ITN for every 2 people in the household (as per digital registers)",
+            "expression": "d2:condition('(#{fseAUcF7XDF.xhNMObZUSTP} * 2) >= #{lQ41LNzTUms.fQehMqK2Qz9}',1,0)",
+            "filter": "d2:hasValue(#{fseAUcF7XDF.xhNMObZUSTP}) && d2:hasValue(#{lQ41LNzTUms.fQehMqK2Qz9})",
+            "id": "AIxuEw0ZCp1",
+            "lastUpdated": "2020-11-16T18:05:27.783",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "legendSets": [],
+            "name": "ITN MC - Number of registered households receiving at least 1 ITN for every 2 people",
+            "program": {
+                "id": "fkb6OrxtbnG"
+            },
+            "publicAccess": "--------",
+            "shortName": "ITN MC - # registered HHs (>=1 ITN per 2 ppl)",
+            "translations": [],
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]
+        }, {
+            "aggregationType": "SUM",
+            "analyticsPeriodBoundaries": [{
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "QSkY88ibJLt",
+                    "lastUpdated": "2020-11-16T18:04:49.856",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "created": "2020-10-14T23:50:56.656",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "BO6vnKzf2hC",
+                    "lastUpdated": "2020-11-16T18:04:49.856",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "ENROLLMENT",
+            "attributeValues": [],
+            "created": "2020-10-15T00:06:24.649",
+            "decimals": 0,
+            "description": "Number of registered households (as per digital registers)",
+            "expression": "1",
+            "filter": "d2:hasValue(#{lQ41LNzTUms.fQehMqK2Qz9})",
+            "id": "UleBC8hg9sz",
+            "lastUpdated": "2020-11-16T18:04:49.856",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
+            "legendSets": [],
+            "name": "ITN MC - Number of households registered",
+            "program": {
+                "id": "fkb6OrxtbnG"
+            },
+            "publicAccess": "--------",
+            "shortName": "ITN MC - # HHs registered ",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -902,13 +1380,47 @@
             "allowFutureDate": false,
             "allowProvidedElsewhere": false,
             "compulsory": true,
+            "created": "2020-10-14T14:40:39.146",
+            "dataElement": {
+                "id": "fQehMqK2Qz9"
+            },
+            "displayInReports": false,
+            "id": "AsYjmvbht7V",
+            "lastUpdated": "2020-11-16T18:45:25.280",
+            "programStage": {
+                "id": "lQ41LNzTUms"
+            },
+            "renderOptionsAsRadio": false,
+            "skipSynchronization": false,
+            "sortOrder": 0
+        }, {
+            "allowFutureDate": false,
+            "allowProvidedElsewhere": false,
+            "compulsory": true,
+            "created": "2020-10-12T15:23:46.932",
+            "dataElement": {
+                "id": "iYCafUQT5D5"
+            },
+            "displayInReports": false,
+            "id": "REJIzVv3jDj",
+            "lastUpdated": "2020-11-16T18:45:25.281",
+            "programStage": {
+                "id": "fseAUcF7XDF"
+            },
+            "renderOptionsAsRadio": false,
+            "skipSynchronization": false,
+            "sortOrder": 1
+        }, {
+            "allowFutureDate": false,
+            "allowProvidedElsewhere": false,
+            "compulsory": true,
             "created": "2020-10-12T15:23:46.931",
             "dataElement": {
                 "id": "oJf9e5chmbx"
             },
             "displayInReports": false,
             "id": "hOSrQqusebV",
-            "lastUpdated": "2020-10-14T19:01:05.528",
+            "lastUpdated": "2020-11-16T18:45:25.281",
             "programStage": {
                 "id": "lQ41LNzTUms"
             },
@@ -925,26 +1437,9 @@
             },
             "displayInReports": false,
             "id": "pb5GfMcnG8P",
-            "lastUpdated": "2020-10-14T19:01:05.528",
+            "lastUpdated": "2020-11-16T18:45:25.281",
             "programStage": {
                 "id": "fseAUcF7XDF"
-            },
-            "renderOptionsAsRadio": false,
-            "skipSynchronization": false,
-            "sortOrder": 0
-        }, {
-            "allowFutureDate": false,
-            "allowProvidedElsewhere": false,
-            "compulsory": true,
-            "created": "2020-10-14T14:40:39.146",
-            "dataElement": {
-                "id": "fQehMqK2Qz9"
-            },
-            "displayInReports": false,
-            "id": "AsYjmvbht7V",
-            "lastUpdated": "2020-10-14T19:01:05.528",
-            "programStage": {
-                "id": "lQ41LNzTUms"
             },
             "renderOptionsAsRadio": false,
             "skipSynchronization": false,
@@ -959,7 +1454,7 @@
             },
             "displayInReports": false,
             "id": "R0Pca1VYMc8",
-            "lastUpdated": "2020-10-14T19:01:05.528",
+            "lastUpdated": "2020-11-16T18:45:25.281",
             "programStage": {
                 "id": "lQ41LNzTUms"
             },
@@ -970,19 +1465,19 @@
             "allowFutureDate": false,
             "allowProvidedElsewhere": false,
             "compulsory": true,
-            "created": "2020-10-12T15:23:46.932",
+            "created": "2020-11-16T18:45:25.281",
             "dataElement": {
-                "id": "iYCafUQT5D5"
+                "id": "E6YzdH6Akcx"
             },
             "displayInReports": false,
-            "id": "REJIzVv3jDj",
-            "lastUpdated": "2020-10-14T19:01:05.529",
+            "id": "Igu4FHpVT7b",
+            "lastUpdated": "2020-11-16T18:45:25.281",
             "programStage": {
                 "id": "fseAUcF7XDF"
             },
             "renderOptionsAsRadio": false,
             "skipSynchronization": false,
-            "sortOrder": 1
+            "sortOrder": 3
         }
     ],
     "programStages": [{
@@ -997,7 +1492,7 @@
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
             "id": "fseAUcF7XDF",
-            "lastUpdated": "2020-10-14T19:01:05.528",
+            "lastUpdated": "2020-11-16T18:45:25.281",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -1032,7 +1527,7 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "pb5GfMcnG8P",
-                    "lastUpdated": "2020-10-14T19:01:05.528",
+                    "lastUpdated": "2020-11-16T18:45:25.281",
                     "programStage": {
                         "id": "fseAUcF7XDF"
                     },
@@ -1064,13 +1559,45 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "REJIzVv3jDj",
-                    "lastUpdated": "2020-10-14T19:01:05.529",
+                    "lastUpdated": "2020-11-16T18:45:25.281",
                     "programStage": {
                         "id": "fseAUcF7XDF"
                     },
                     "renderOptionsAsRadio": false,
                     "skipSynchronization": false,
                     "sortOrder": 1,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }, {
+                    "access": {
+                        "delete": true,
+                        "externalize": true,
+                        "manage": true,
+                        "read": true,
+                        "update": true,
+                        "write": true
+                    },
+                    "allowFutureDate": false,
+                    "allowProvidedElsewhere": false,
+                    "attributeValues": [],
+                    "compulsory": true,
+                    "created": "2020-11-16T18:45:25.281",
+                    "dataElement": {
+                        "id": "E6YzdH6Akcx"
+                    },
+                    "displayInReports": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Igu4FHpVT7b",
+                    "lastUpdated": "2020-11-16T18:45:25.281",
+                    "programStage": {
+                        "id": "fseAUcF7XDF"
+                    },
+                    "renderOptionsAsRadio": false,
+                    "skipSynchronization": false,
+                    "sortOrder": 3,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -1088,10 +1615,14 @@
             "userAccesses": [],
             "userGroupAccesses": [{
                     "access": "rwr-----",
-                    "id": "XqKqIObzfJz"
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
                 }, {
                     "access": "r-rw----",
-                    "id": "BCT1mbxde4M"
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
                 }
             ],
             "validationStrategy": "ON_COMPLETE"
@@ -1107,7 +1638,7 @@
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
             "id": "lQ41LNzTUms",
-            "lastUpdated": "2020-10-14T19:01:05.527",
+            "lastUpdated": "2020-11-16T18:45:25.280",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
@@ -1142,7 +1673,7 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "AsYjmvbht7V",
-                    "lastUpdated": "2020-10-14T19:01:05.528",
+                    "lastUpdated": "2020-11-16T18:45:25.280",
                     "programStage": {
                         "id": "lQ41LNzTUms"
                     },
@@ -1174,7 +1705,7 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "R0Pca1VYMc8",
-                    "lastUpdated": "2020-10-14T19:01:05.528",
+                    "lastUpdated": "2020-11-16T18:45:25.281",
                     "programStage": {
                         "id": "lQ41LNzTUms"
                     },
@@ -1206,7 +1737,7 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "hOSrQqusebV",
-                    "lastUpdated": "2020-10-14T19:01:05.528",
+                    "lastUpdated": "2020-11-16T18:45:25.281",
                     "programStage": {
                         "id": "lQ41LNzTUms"
                     },
@@ -1231,10 +1762,14 @@
             "userAccesses": [],
             "userGroupAccesses": [{
                     "access": "rwr-----",
-                    "id": "XqKqIObzfJz"
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
                 }, {
                     "access": "r-rw----",
-                    "id": "BCT1mbxde4M"
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
                 }
             ],
             "validationStrategy": "ON_COMPLETE"
@@ -1360,6 +1895,7 @@
             "name": "ITN Mass Campaign - Household Register",
             "notificationTemplates": [],
             "onlyEnrollOnce": true,
+            "organisationUnits": [],
             "programSections": [],
             "programStages": [{
                     "id": "lQ41LNzTUms"
@@ -1882,60 +2418,6 @@
             "translations": [],
             "user": {
                 "id": "eme9LfVIBlm"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
-        }
-    ],
-    "userGroups": [{
-            "access": {
-                "delete": true,
-                "externalize": true,
-                "manage": true,
-                "read": true,
-                "update": true,
-                "write": true
-            },
-            "attributeValues": [],
-            "created": "2020-10-14T13:53:27.760",
-            "displayName": "ITN MC - Admin",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "id": "XqKqIObzfJz",
-            "lastUpdated": "2020-10-22T04:56:05.297",
-            "managedGroups": [],
-            "name": "ITN MC - Admin",
-            "publicAccess": "rw------",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
-        }, {
-            "access": {
-                "delete": true,
-                "externalize": true,
-                "manage": true,
-                "read": true,
-                "update": true,
-                "write": true
-            },
-            "attributeValues": [],
-            "created": "2020-10-14T13:52:38.429",
-            "displayName": "ITN MC - Users",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "id": "BCT1mbxde4M",
-            "lastUpdated": "2020-10-14T19:00:37.295",
-            "managedGroups": [],
-            "name": "ITN MC - Users",
-            "publicAccess": "rw------",
-            "translations": [],
-            "user": {
-                "id": "QTOaqdHzNly"
             },
             "userAccesses": [],
             "userGroupAccesses": []
