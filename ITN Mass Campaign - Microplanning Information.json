@@ -1,5 +1,4 @@
 {
-    "package": "PSI_ITN_AGG_M_V1.0.0_DHIS2.33_2020-10-24T07:47:20.092",
     "categories": [{
             "attributeValues": [],
             "categoryOptions": [{
@@ -697,47 +696,46 @@
             ]
         }
     ],
-	
+    "package": "PSI_ITN_AGG_M_V1.0.0_DHIS2.33_2020-10-24T07:47:20.092",
     "userGroups": [{
+            "attributeValues": [],
             "created": "2020-10-14T13:53:27.760",
-            "lastUpdated": "2020-12-02T15:38:10.218",
-            "name": "ITN MC - Admin",
             "id": "XqKqIObzfJz",
-            "publicAccess": "rw------",
+            "lastUpdated": "2020-12-02T15:38:10.218",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
-            "user": {
-                "id": "QTOaqdHzNly"
-            },
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "users": [],
             "managedGroups": [{
                     "id": "BCT1mbxde4M"
                 }
             ],
-            "translations": [],
-            "userAccesses": []
-        }, {
-            "created": "2020-10-14T13:52:38.429",
-            "lastUpdated": "2020-12-02T15:38:10.225",
-            "name": "ITN MC - Users",
-            "id": "BCT1mbxde4M",
+            "name": "ITN MC - Admin",
             "publicAccess": "rw------",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
+            "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
             },
+            "userAccesses": [],
             "userGroupAccesses": [],
+            "users": []
+        }, {
             "attributeValues": [],
-            "users": [],
+            "created": "2020-10-14T13:52:38.429",
+            "id": "BCT1mbxde4M",
+            "lastUpdated": "2020-12-02T15:38:10.225",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
             "managedGroups": [],
+            "name": "ITN MC - Users",
+            "publicAccess": "rw------",
             "translations": [],
-            "userAccesses": []
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
         }
     ]
-
 }

@@ -1124,81 +1124,6 @@
         }
     ],
     "date": "2020-12-03T07:58:14.716",
-    "package": "PSI_ITN_AGG_V1.0.0_DHIS2.33_2020-10-24T07:47:20.092",
-    "sections": [{
-            "attributeValues": [],
-            "created": "2020-10-13T23:29:54.655",
-            "dataElements": [{
-                    "id": "Fz57kvvZOWH"
-                }, {
-                    "id": "Q6n9OGOmAF9"
-                }, {
-                    "id": "JCyGvxxuU0J"
-                }, {
-                    "id": "zRGT1fsTOWQ"
-                }, {
-                    "id": "SaiTPdRkcIz"
-                }, {
-                    "id": "e0YcLMJiKnj"
-                }, {
-                    "id": "bvFxc5R2Rxj"
-                }, {
-                    "id": "C0Yjri6DhnZ"
-                }
-            ],
-            "dataSet": {
-                "id": "NuCjE8OI0mq"
-            },
-            "greyedFields": [],
-            "id": "CQlImC8yO5C",
-            "indicators": [],
-            "lastUpdated": "2020-10-23T15:23:10.146",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "name": "Distribution",
-            "showColumnTotals": false,
-            "showRowTotals": false,
-            "sortOrder": 4,
-            "translations": []
-        }, {
-            "attributeValues": [],
-            "created": "2020-10-13T23:29:41.053",
-            "dataElements": [{
-                    "id": "FdtFKcsZmDt"
-                }, {
-                    "id": "WhN4DVVdmqS"
-                }, {
-                    "id": "iFiwrnh52V7"
-                }, {
-                    "id": "HHkW4VZ52nV"
-                }, {
-                    "id": "XShd9WLhW3q"
-                }, {
-                    "id": "ZCLgxs9kR6a"
-                }, {
-                    "id": "ABY360LCXuR"
-                }, {
-                    "id": "zcTNOpGKlJu"
-                }
-            ],
-            "dataSet": {
-                "id": "NuCjE8OI0mq"
-            },
-            "greyedFields": [],
-            "id": "NvW96aJdXmD",
-            "indicators": [],
-            "lastUpdated": "2020-10-23T15:23:12.141",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
-            "name": "Registration",
-            "showColumnTotals": false,
-            "showRowTotals": false,
-            "sortOrder": 3,
-            "translations": []
-        }
-    ],
     "optionSets": [{
             "attributeValues": [],
             "code": "VC_ITN_PRODUCTS",
@@ -1628,47 +1553,120 @@
             ]
         }
     ],
-	
-    "userGroups": [{
-            "created": "2020-10-14T13:53:27.760",
-            "lastUpdated": "2020-12-02T15:38:10.218",
-            "name": "ITN MC - Admin",
-            "id": "XqKqIObzfJz",
-            "publicAccess": "rw------",
+    "package": "PSI_ITN_AGG_V1.0.0_DHIS2.33_2020-10-24T07:47:20.092",
+    "sections": [{
+            "attributeValues": [],
+            "created": "2020-10-13T23:29:54.655",
+            "dataElements": [{
+                    "id": "Fz57kvvZOWH"
+                }, {
+                    "id": "Q6n9OGOmAF9"
+                }, {
+                    "id": "JCyGvxxuU0J"
+                }, {
+                    "id": "zRGT1fsTOWQ"
+                }, {
+                    "id": "SaiTPdRkcIz"
+                }, {
+                    "id": "e0YcLMJiKnj"
+                }, {
+                    "id": "bvFxc5R2Rxj"
+                }, {
+                    "id": "C0Yjri6DhnZ"
+                }
+            ],
+            "dataSet": {
+                "id": "NuCjE8OI0mq"
+            },
+            "greyedFields": [],
+            "id": "CQlImC8yO5C",
+            "indicators": [],
+            "lastUpdated": "2020-10-23T15:23:10.146",
             "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
-            "user": {
+            "name": "Distribution",
+            "showColumnTotals": false,
+            "showRowTotals": false,
+            "sortOrder": 4,
+            "translations": []
+        }, {
+            "attributeValues": [],
+            "created": "2020-10-13T23:29:41.053",
+            "dataElements": [{
+                    "id": "FdtFKcsZmDt"
+                }, {
+                    "id": "WhN4DVVdmqS"
+                }, {
+                    "id": "iFiwrnh52V7"
+                }, {
+                    "id": "HHkW4VZ52nV"
+                }, {
+                    "id": "XShd9WLhW3q"
+                }, {
+                    "id": "ZCLgxs9kR6a"
+                }, {
+                    "id": "ABY360LCXuR"
+                }, {
+                    "id": "zcTNOpGKlJu"
+                }
+            ],
+            "dataSet": {
+                "id": "NuCjE8OI0mq"
+            },
+            "greyedFields": [],
+            "id": "NvW96aJdXmD",
+            "indicators": [],
+            "lastUpdated": "2020-10-23T15:23:12.141",
+            "lastUpdatedBy": {
                 "id": "QTOaqdHzNly"
             },
-            "userGroupAccesses": [],
+            "name": "Registration",
+            "showColumnTotals": false,
+            "showRowTotals": false,
+            "sortOrder": 3,
+            "translations": []
+        }
+    ],
+    "userGroups": [{
             "attributeValues": [],
-            "users": [],
+            "created": "2020-10-14T13:53:27.760",
+            "id": "XqKqIObzfJz",
+            "lastUpdated": "2020-12-02T15:38:10.218",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
             "managedGroups": [{
                     "id": "BCT1mbxde4M"
                 }
             ],
-            "translations": [],
-            "userAccesses": []
-        }, {
-            "created": "2020-10-14T13:52:38.429",
-            "lastUpdated": "2020-12-02T15:38:10.225",
-            "name": "ITN MC - Users",
-            "id": "BCT1mbxde4M",
+            "name": "ITN MC - Admin",
             "publicAccess": "rw------",
-            "lastUpdatedBy": {
-                "id": "QTOaqdHzNly"
-            },
+            "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
             },
+            "userAccesses": [],
             "userGroupAccesses": [],
+            "users": []
+        }, {
             "attributeValues": [],
-            "users": [],
+            "created": "2020-10-14T13:52:38.429",
+            "id": "BCT1mbxde4M",
+            "lastUpdated": "2020-12-02T15:38:10.225",
+            "lastUpdatedBy": {
+                "id": "QTOaqdHzNly"
+            },
             "managedGroups": [],
+            "name": "ITN MC - Users",
+            "publicAccess": "rw------",
             "translations": [],
-            "userAccesses": []
+            "user": {
+                "id": "QTOaqdHzNly"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "users": []
         }
     ]
-
 }
