@@ -80,4 +80,8 @@ Steps for each dashboard
 4) Add manually the userGroups involved. Remove the users (use import/export app)
 
 
-
+# from dhis2 to psi defaults
+sed -i 's/GLevLNI9wkl/evIUQOgObj3/g' *.json
+sed -i 's/xYerKDKCefk/gnS5549wCkG/g' *.json
+sed -i 's/bjDvmb4bfuf/vBNfvFQQ0q3/g' *.json
+sed -i 's/HllvX50cXC0/XfXL6fEveof/g' *.json
