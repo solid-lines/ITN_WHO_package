@@ -1,5 +1,12 @@
 "# ITN_WHO_package" 
 
+
+IMPORTANT NOTE
+--------------
+
+In some dhis2 versions, it is broken the sortOrder of a created optionSet using the import/export app.
+In order to fix this, you have to manually re-sort the optionSets, using the maintenance app.
+
 Steps for Tracker Program ITN Mass Campaign - Household Register
 ----------------------------------------------------------------
 
