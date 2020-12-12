@@ -3214,7 +3214,7 @@
                 }
             ],
             "name": "ITN MC - Admin",
-            "publicAccess": "rw------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -3232,7 +3232,7 @@
             },
             "managedGroups": [],
             "name": "ITN MC - Users",
-            "publicAccess": "rw------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
