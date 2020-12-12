@@ -1,4 +1,5 @@
 {
+    "package": "PSI_ITN_AGG_V1.0.0_DHIS2.33_2020-12-11T07:47:20.092",
     "categories": [{
             "attributeValues": [],
             "categoryOptions": [{
@@ -1553,7 +1554,6 @@
             ]
         }
     ],
-    "package": "PSI_ITN_AGG_V1.0.0_DHIS2.33_2020-10-24T07:47:20.092",
     "sections": [{
             "attributeValues": [],
             "created": "2020-10-13T23:29:54.655",
