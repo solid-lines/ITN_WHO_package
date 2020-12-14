@@ -77,7 +77,7 @@
                     "id": "20201011"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regressionType": "NONE",
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -207,7 +207,7 @@
                     "id": "20201011"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regressionType": "NONE",
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -339,7 +339,7 @@
                     "id": "20201011"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regressionType": "NONE",
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -1048,7 +1048,7 @@
                 "id": "eme9LfVIBlm"
             },
             "name": "ITN Mass Campaign",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -1112,7 +1112,7 @@
             "name": "ITN MC - ITNs remaining at end of day (theoretical)",
             "numerator": "#{Q6n9OGOmAF9} - #{JCyGvxxuU0J} + #{zRGT1fsTOWQ} - #{SaiTPdRkcIz} - #{e0YcLMJiKnj}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - ITN remaining at end of day (theoretical)",
             "translations": [],
             "user": {
@@ -1154,7 +1154,7 @@
             "name": "ITN MC - ITNs remaining at end of day (variance)",
             "numerator": "(#{Q6n9OGOmAF9} - #{JCyGvxxuU0J} + #{zRGT1fsTOWQ} - #{SaiTPdRkcIz} - #{e0YcLMJiKnj})-#{bvFxc5R2Rxj}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - ITN remaining at end of day (variance)",
             "translations": [],
             "user": {
@@ -1193,7 +1193,7 @@
             "name": "ITN MC - Number of households registered",
             "numerator": "(#{iFiwrnh52V7} + #{HHkW4VZ52nV} + #{XShd9WLhW3q} + #{ZCLgxs9kR6a} + #{ABY360LCXuR})",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - # HHs registered",
             "translations": [],
             "user": {
@@ -1232,7 +1232,7 @@
             "name": "ITN MC - Number of persons with access to an ITN (estimate 1 ITN per 2 persons)",
             "numerator": "#{JCyGvxxuU0J} * 2",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - # persons access to ITN (estimate)",
             "translations": [],
             "user": {
@@ -1274,7 +1274,7 @@
             "name": "ITN MC - Proportion of estimated households who were registered",
             "numerator": "(#{iFiwrnh52V7} + #{HHkW4VZ52nV} + #{XShd9WLhW3q} + #{ZCLgxs9kR6a} + #{ABY360LCXuR}) / #{NbGcRWOytxE} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % estimate households registered",
             "translations": [],
             "user": {
@@ -1316,7 +1316,7 @@
             "name": "ITN MC - Proportion of estimated population who were registered",
             "numerator": "#{FdtFKcsZmDt} / #{p3hjvDdF3qv} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % estimate population registered",
             "translations": [],
             "user": {
@@ -1358,7 +1358,7 @@
             "name": "ITN MC - Proportion of prepositioned ITNs that have been issued ",
             "numerator": "#{JCyGvxxuU0J} / #{Fz57kvvZOWH} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % prepositioned ITNs issued",
             "translations": [],
             "user": {
@@ -1400,7 +1400,7 @@
             "name": "ITN MC - Proportion of registered households receiving at least 1 ITN for every 2 people (TRK)",
             "numerator": "I{AIxuEw0ZCp1} / I{UleBC8hg9sz} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % registered HHs (1 ITN per 2 ppl)",
             "translations": [],
             "user": {
@@ -1442,7 +1442,7 @@
             "name": "ITN MC - Proportion of registered households receiving at least one ITN ",
             "numerator": "#{C0Yjri6DhnZ} / (#{iFiwrnh52V7} + #{HHkW4VZ52nV} + #{XShd9WLhW3q} + #{ZCLgxs9kR6a} + #{ABY360LCXuR}) * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % registered HHs",
             "translations": [],
             "user": {
@@ -1484,7 +1484,7 @@
             "name": "ITN MC - Proportion of registered households receiving sufficient ITNs (TRK)",
             "numerator": "I{OwgG9KdkNVm} / I{UleBC8hg9sz} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % registered HHs (ITNs >= spaces)",
             "translations": [],
             "user": {
@@ -1526,7 +1526,7 @@
             "name": "ITN MC - Proportion of registered population in households receiving at least 1 ITN for every 2 people (actual)",
             "numerator": "I{iYkaQTZvdxi} / D{fkb6OrxtbnG.fQehMqK2Qz9} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Registered population ITN access (actual)",
             "translations": [],
             "user": {
@@ -1568,7 +1568,7 @@
             "name": "ITN MC - Proportion of registered population in households receiving at least 1 ITN for every 2 people (estimate)",
             "numerator": "#{JCyGvxxuU0J} * 2 / #{FdtFKcsZmDt} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Registered population ITN access (estim)",
             "translations": [],
             "user": {
@@ -1610,7 +1610,7 @@
             "name": "ITN MC - Proportion of registered population in households receiving sufficient ITNs (TRK)",
             "numerator": "I{hnIbMeT2W3j} / D{fkb6OrxtbnG.fQehMqK2Qz9} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % registered ppl (HH ITNs >= spaces)",
             "translations": [],
             "user": {
@@ -1652,7 +1652,7 @@
             "name": "ITN MC - Proportion of registered sleeping spaces covered by ITNs issued",
             "numerator": "#{JCyGvxxuU0J} / #{WhN4DVVdmqS} * 100",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - % registered spaces covered by ITNs",
             "translations": [],
             "user": {
@@ -1694,7 +1694,7 @@
             "name": "ITN MC - Variance - ITNs allotted",
             "numerator": "#{zcTNOpGKlJu} - D{fkb6OrxtbnG.oJf9e5chmbx}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Variance - ITNs allotted",
             "translations": [],
             "user": {
@@ -1736,7 +1736,7 @@
             "name": "ITN MC - Variance - ITNs issued",
             "numerator": "#{JCyGvxxuU0J} - D{fkb6OrxtbnG.xhNMObZUSTP}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Variance - ITNs issued",
             "translations": [],
             "user": {
@@ -1778,7 +1778,7 @@
             "name": "ITN MC - Variance - Registered households",
             "numerator": "(#{iFiwrnh52V7} + #{HHkW4VZ52nV} + #{XShd9WLhW3q} + #{ZCLgxs9kR6a} + #{ABY360LCXuR}) - I{UleBC8hg9sz}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Variance - Reg HHs",
             "translations": [],
             "user": {
@@ -1820,7 +1820,7 @@
             "name": "ITN MC - Variance - Registered population",
             "numerator": "#{FdtFKcsZmDt} - D{fkb6OrxtbnG.fQehMqK2Qz9}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Variance - Reg population",
             "translations": [],
             "user": {
@@ -1862,7 +1862,7 @@
             "name": "ITN MC - Variance - Registered sleeping spaces",
             "numerator": "#{WhN4DVVdmqS} - D{fkb6OrxtbnG.D8P13zlwnzP}",
             "numeratorDescription": "Num",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Variance - Reg sleeping spaces",
             "translations": [],
             "user": {
@@ -1966,7 +1966,7 @@
                 }
             ],
             "name": "ITN MC - Performance (0-80, 80-95, 95+)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -2067,7 +2067,7 @@
                 }
             ],
             "name": "ITN MC - Variance",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -2133,7 +2133,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2263,7 +2263,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2386,7 +2386,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2510,7 +2510,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2664,7 +2664,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2808,7 +2808,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -2946,7 +2946,7 @@
                     "id": "20201011"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -3084,7 +3084,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -3207,7 +3207,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
@@ -3350,7 +3350,7 @@
                     "id": "2020"
                 }
             ],
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "regression": false,
             "relativePeriods": {
                 "biMonthsThisYear": false,
