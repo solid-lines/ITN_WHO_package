@@ -13,7 +13,7 @@
             "id": "GLevLNI9wkl",
             "lastUpdated": "2020-11-08T23:43:12.991",
             "name": "default",
-            "publicAccess": "rw------",
+            "publicAccess": "--------",
             "translations": [],
             "userAccesses": [],
             "userGroupAccesses": []
@@ -30,7 +30,7 @@
             "id": "bjDvmb4bfuf",
             "lastUpdated": "2020-01-27T20:55:59.602",
             "name": "default",
-            "publicAccess": "rw------",
+            "publicAccess": "--------",
             "skipTotal": false,
             "translations": [],
             "userAccesses": [],
@@ -63,7 +63,7 @@
             "lastUpdated": "2020-01-27T20:55:59.604",
             "name": "default",
             "organisationUnits": [],
-            "publicAccess": "rwrw----",
+            "publicAccess": "--------",
             "translations": [],
             "userAccesses": [],
             "userGroupAccesses": []
@@ -450,7 +450,7 @@
                     "id": "pflJcbYuV8r"
                 }
             ],
-            "publicAccess": "r-------",
+            "publicAccess": "--------",
             "translations": [{
                     "locale": "pt",
                     "property": "NAME",
@@ -469,7 +469,18 @@
                 "id": "M5zQapPyTZI"
             },
             "userAccesses": [],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ],
             "valueType": "TEXT",
             "version": 4
         }
@@ -2413,14 +2424,25 @@
             "maxTeiCountToReturn": 0,
             "minAttributesRequiredToSearch": 1,
             "name": "Household",
-            "publicAccess": "r-rw----",
+            "publicAccess": "r-r-----",
             "trackedEntityTypeAttributes": [],
             "translations": [],
             "user": {
                 "id": "eme9LfVIBlm"
             },
             "userAccesses": [],
-            "userGroupAccesses": []
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]
         }
     ],
     "userGroups": [{
