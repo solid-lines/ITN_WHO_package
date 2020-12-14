@@ -13,7 +13,7 @@
             "id": "GLevLNI9wkl",
             "lastUpdated": "2020-11-08T23:43:12.991",
             "name": "default",
-            "publicAccess": "rw------",
+            "publicAccess": "r-------",
             "translations": [],
             "userAccesses": [],
             "userGroupAccesses": []
@@ -30,7 +30,7 @@
             "id": "bjDvmb4bfuf",
             "lastUpdated": "2020-01-27T20:55:59.602",
             "name": "default",
-            "publicAccess": "rw------",
+            "publicAccess": "r-------",
             "skipTotal": false,
             "translations": [],
             "userAccesses": [],
@@ -63,7 +63,7 @@
             "lastUpdated": "2020-01-27T20:55:59.604",
             "name": "default",
             "organisationUnits": [],
-            "publicAccess": "rwrw----",
+            "publicAccess": "r-r-----",
             "translations": [],
             "userAccesses": [],
             "userGroupAccesses": []
@@ -116,7 +116,7 @@
                 "id": "QTOaqdHzNly"
             },
             "name": "ITN Mass Campaign (Summary Form)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "translations": [],
             "user": {
                 "id": "QTOaqdHzNly"
@@ -157,7 +157,7 @@
             "optionSet": {
                 "id": "F63xpYtffNW"
             },
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - ITN brand",
             "translations": [],
             "user": {
@@ -196,7 +196,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Estimated population",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Estimated population",
             "translations": [],
             "user": {
@@ -235,7 +235,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Estimated households",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITN MC - Estimated households",
             "translations": [],
             "user": {
@@ -274,7 +274,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs prepositioned",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs prepositioned",
             "translations": [],
             "user": {
@@ -313,7 +313,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered households (1-2 people)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. households (1-2 ppl)",
             "translations": [],
             "user": {
@@ -352,7 +352,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered population",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. population",
             "translations": [],
             "user": {
@@ -391,7 +391,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs issued",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs issued",
             "translations": [],
             "user": {
@@ -430,7 +430,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Households issued ITNs",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Households issued ITNs",
             "translations": [],
             "user": {
@@ -469,7 +469,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered households (5-6 people)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. households (5-6 ppl)",
             "translations": [],
             "user": {
@@ -508,7 +508,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered sleeping spaces",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. sleeping spaces",
             "translations": [],
             "user": {
@@ -547,7 +547,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered households (7-8 people)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. households (7-8 ppl)",
             "translations": [],
             "user": {
@@ -586,7 +586,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered households (3-4 people)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. households (3-4 ppl)",
             "translations": [],
             "user": {
@@ -625,7 +625,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs at beginning of day",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs at beginning of day",
             "translations": [],
             "user": {
@@ -664,7 +664,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs remaining at end of day",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs remaining at end of day",
             "translations": [],
             "user": {
@@ -703,7 +703,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs lost",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs lost",
             "translations": [],
             "user": {
@@ -742,7 +742,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs received",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs received",
             "translations": [],
             "user": {
@@ -781,7 +781,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs reallocated",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs reallocated",
             "translations": [],
             "user": {
@@ -820,7 +820,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - ITNs allotted during registration",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "ITNs allotted during reg",
             "translations": [],
             "user": {
@@ -859,7 +859,7 @@
             },
             "legendSets": [],
             "name": "ITN MC - Registered households (9+ people)",
-            "publicAccess": "--------",
+            "publicAccess": "r-------",
             "shortName": "Reg. households (9+ ppl)",
             "translations": [],
             "user": {
@@ -1023,7 +1023,7 @@
             "openPeriodsAfterCoEndDate": 0,
             "organisationUnits": [],
             "periodType": "Daily",
-            "publicAccess": "--------",
+            "publicAccess": "r-r-----",
             "renderAsTabs": false,
             "renderHorizontally": false,
             "shortName": "ITN Mass Campaign - Daily summary form",
@@ -1098,7 +1098,7 @@
             "openPeriodsAfterCoEndDate": 0,
             "organisationUnits": [],
             "periodType": "Daily",
-            "publicAccess": "--------",
+            "publicAccess": "r-r-----",
             "renderAsTabs": false,
             "renderHorizontally": false,
             "skipOffline": false,
