@@ -16,8 +16,18 @@
             "publicAccess": "r-------",
             "translations": [],
             "userAccesses": [],
-            "userGroupAccesses": []
-        }
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]        }
     ],
     "categoryCombos": [{
             "categories": [{
@@ -34,8 +44,18 @@
             "skipTotal": false,
             "translations": [],
             "userAccesses": [],
-            "userGroupAccesses": []
-        }
+            "userGroupAccesses": [{
+                    "access": "rw------",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-------",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]        }
     ],
     "categoryOptionCombos": [{
             "attributeValues": [],
@@ -66,8 +86,18 @@
             "publicAccess": "r-r-----",
             "translations": [],
             "userAccesses": [],
-            "userGroupAccesses": []
-        }
+            "userGroupAccesses": [{
+                    "access": "rwr-----",
+                    "displayName": "ITN MC - Admin",
+                    "id": "XqKqIObzfJz",
+                    "userGroupUid": "XqKqIObzfJz"
+                }, {
+                    "access": "r-r-----",
+                    "displayName": "ITN MC - Users",
+                    "id": "BCT1mbxde4M",
+                    "userGroupUid": "BCT1mbxde4M"
+                }
+            ]        }
     ],
     "dataElementGroups": [{
             "attributeValues": [],
